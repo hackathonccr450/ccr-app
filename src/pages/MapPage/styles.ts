@@ -7,11 +7,6 @@ export const Container = styled.View`
   padding-top: 20px;
 `;
 
-export const Title = styled.Text`
-  align-self: center;
-  font-size: 20px;
-`;
-
 export const MapContainer = styled.View`
   flex: 1;
   width: 100%;

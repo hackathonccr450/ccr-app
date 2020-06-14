@@ -19,9 +19,7 @@ export const PointName = styled.Text`
   margin-top: 24px;
 `;
 
-export const Rating = styled.View`
-  flex: 1;
-`;
+export const Rating = styled.View``;
 
 export const RatingTitle = styled.Text`
   color: #322153;
@@ -29,7 +27,26 @@ export const RatingTitle = styled.Text`
   margin-top: 24px;
 `;
 
-export const StarConteiner = styled.View`
-  flex: 1;
+export const StarContainer = styled.View`
   flex-direction: row;
+`;
+
+export const CommentContainer = styled.View`
+  /* flex: 1; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+`;
+
+export const Comment = styled.View`
+  margin-top: 15px;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+`;
+
+export const CommentName = styled.Text``;
+
+export const CommentMessage = styled.Text`
+  padding-top: 10px;
 `;

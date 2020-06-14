@@ -6,7 +6,6 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 
 import {
   Container,
-  Title,
   MapContainer,
   MapView,
   MapMarker,
@@ -14,6 +13,9 @@ import {
   MapMarkerImage,
   MapMarkerTitle,
 } from './styles';
+
+import NavigateBack from '../../components/NavigateBack';
+import Title from '../../components/Title';
 
 const MapPage: React.FC = () => {
   const navigation = useNavigation();
@@ -45,20 +47,14 @@ const MapPage: React.FC = () => {
     loadPosition();
   }, []);
 
-  function handleNavigateBack(): void {
-    navigation.goBack();
-  }
-
   function handleDetailPage(): void {
     navigation.navigate('Detail');
   }
 
   return (
     <Container>
-      <TouchableOpacity onPress={handleNavigateBack}>
-        <Icon name="arrow-left" size={30} color="#34cb79" />
-      </TouchableOpacity>
-      <Title>Minha Localização</Title>
+      <NavigateBack />
+      <Title title="Minha Localização" />
       {initialPosition[0] === 0 ? (
         <ActivityIndicator
           size="large"

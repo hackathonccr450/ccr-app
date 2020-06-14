@@ -1,31 +1,18 @@
 import React from 'react';
-import { Text, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
 
-import { Container, Title, MapButton, TextButton } from './styles';
+import { Container } from './styles';
+
+import Button from '../../components/Button';
+import Title from '../../components/Title';
 
 const Home: React.FC = () => {
-  const navigation = useNavigation();
-
-  function handleNextPage(): void {
-    navigation.navigate('MapPage');
-  }
-
   return (
     <Container>
-      <Title>Olá, Tubarão</Title>
-      <MapButton onPress={handleNextPage}>
-        <TextButton>MAPA</TextButton>
-      </MapButton>
-      <MapButton onPress={handleNextPage}>
-        <TextButton>PONTOS</TextButton>
-      </MapButton>
-      <MapButton onPress={handleNextPage}>
-        <TextButton>SAÚDE</TextButton>
-      </MapButton>
-      <MapButton onPress={handleNextPage}>
-        <TextButton>CONFIGURACÕES</TextButton>
-      </MapButton>
+      <Title title="Olá, Tubarão" />
+      <Button page="MapPage" text="MAPA" />
+      <Button page="Score" text="PONTOS" />
+      <Button page="Health" text="SAÚDE" />
+      <Button page="SettingsPage" text="CONFIGURAÇÕES" />
     </Container>
   );
 };
