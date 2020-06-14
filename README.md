@@ -1,20 +1,20 @@
 
 <!-- TABLE OF CONTENTS -->
 # Índice
-* [Sobre o Projeto](#boom-sobre-o-projeto)
-* [Construído com](#gear-construído-com)
+* [Sobre o Projeto](#-sobre-o-projeto)
+* [Construído com](#-construído-com)
   * [Ferramentas](#ferramentas)
   * [Tecnologias](#tecnologias)
-* [Começando](#rocket-começando)
-  * [Prerequisitos](#clipboard-prerequisitos)
-  * [Instalação](#zap-instalação)
+* [Começando](#-começando)
+  * [Prerequisitos](#-prerequisitos)
+  * [Instalação](#-instalação)
 * [Utilização](#utilização)
-* [Contato](#e-mail-contato)
-* [Agradecimentos](#exclamation-agradecimentos)
+* [Contato](#-contato)
+* [Agradecimentos](#-agradecimentos)
 <!-- * [Roadmap](#arrows_clockwise-roadmap) -->
 
 <!-- ABOUT THE PROJECT -->
-# :boom: Sobre o Projeto
+# Sobre o Projeto
 
 <!-- Project image -->
 <p align="center">
@@ -28,7 +28,7 @@ A ideia do app é servir como um assistente virtual para os caminhoneiros no int
 
 ***
 
-# :gear: Construído com
+# Construído com
   ## Ferramentas
   * [VSCode](https://code.visualstudio.com/)
 
@@ -37,30 +37,30 @@ A ideia do app é servir como um assistente virtual para os caminhoneiros no int
   * [React Native](https://reactnative.dev/)
   * [Expo](https://expo.io/)
 
-  [:arrow_up: Back to top](#table-of-Contents)
+  [Voltar ao topo](#-índice)
   ***
 
-# :fireworks: Layout
+# Layout
 Clique [aqui](https://www.figma.com/file/IoG9eGXVlGTyWFsg9bbHb8/Hackathon-CCR?node-id=83%3A1) para ver o layout do app no Figma.
 
-  [:arrow_up: Back to top](#table-of-Contents)
+  [Voltar ao topo](#-índice)
   ***
 
 <!-- GETTING STARTED -->
-# :rocket: Começando
+# Começando
 
 Para ter um cópia local e funcionando do app, siga os passos abaixo.
 
-## :clipboard: Prerequisitos
+## Prerequisitos
 
 * Node.js - [Guia de instalação](https://nodejs.org/en/download/package-manager/)
 * Expo CLI - [Guia de instalação](https://docs.expo.io/get-started/installation/)
 * Yarn - [Guia de instalação](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
-[:arrow_up: Back to top](#table-of-Contents)
+[Voltar ao topo](#-índice)
 ***
 
-## :zap: Instalação
+## Instalação
 Execute os comandos abaixo para instalar o app.
   ```sh
     #Clonar o projeto
@@ -76,7 +76,7 @@ Execute os comandos abaixo para instalar o app.
     yarn start
    ```
 
-[:arrow_up: Back to top](#table-of-Contents)
+[Voltar ao topo](#-índice)
 ***
 
 <!-- USAGE EXAMPLES -->
@@ -87,7 +87,7 @@ Para ver a desmonstração do app clique [aqui](https://www.figma.com/proto/IoG9
 ***
 
 <!-- CONTACT -->
-# :e-mail: Contato
+# Contato
 
 Daniel - <daniel.keterer@gmail.com>
 Eduardo - <Eduardo.Nobuhiro@hotmail.com>
@@ -95,15 +95,17 @@ João Vitor - <j.vitor.mf@gmail.com>
 Juliana - <juju.doux@gmail.com>
 Richard - <richard.deus@gmail.com>
 
-[:arrow_up: Back to top](#table-of-Contents)
+[Voltar ao topo](#-índice)
 ***
 
 <!-- ACKNOWLEDGEMENTS -->
-# :exclamation: Agradecimentos
+# Agradecimentos
 
 * [Hackathon CCR](http://www.grupoccr.com.br/hackathonccr/)
 * [CCR](http://www.grupoccr.com.br/grupo-ccr/sobre-o-grupo-ccr)
 * [Shawee](https://shawee.io/)
+* Mentor: IGOR ARNALDO DE ALENCAR FEITOZA
+* Mentora: ANA CAROLINA MEDRADO
 
-[:arrow_up: Back to top](#table-of-Contents)
+[Voltar ao topo](#-índice)
 ***
