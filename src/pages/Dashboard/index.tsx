@@ -1,17 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  PermissionsAndroid,
-  ActivityIndicator,
-  Alert,
-} from 'react-native';
+import { ActivityIndicator, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import * as Location from 'expo-location';
-// import MapView, { Marker } from 'react-native-maps';
+import { Marker } from 'react-native-maps';
 
-import { Container } from './styles';
+import { Container, MapView } from './styles';
 
 const Dashboard: React.FC = () => {
   const [initialPosition, setInitialPosition] = useState<[number, number]>([
@@ -44,15 +37,19 @@ const Dashboard: React.FC = () => {
 
   return (
     <Container>
-      {/* {location[0] === 0 ? (
-        <ActivityIndicator />
+      {initialPosition[0] === 0 ? (
+        <ActivityIndicator
+          size="large"
+          color="#34CB79"
+          style={{ flex: 1, alignSelf: 'center' }}
+        />
       ) : (
         <MapView
           showsUserLocation
           followsUserLocation
           initialRegion={{
-            latitude: location[0],
-            longitude: location[1],
+            latitude: initialPosition[0],
+            longitude: initialPosition[1],
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421,
           }}
@@ -61,7 +58,7 @@ const Dashboard: React.FC = () => {
             coordinate={{ latitude: -23.6433874, longitude: -46.7140585 }}
           />
         </MapView>
-      )} */}
+      )}
     </Container>
   );
 };
