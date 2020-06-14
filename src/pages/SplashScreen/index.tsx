@@ -14,20 +14,13 @@ const fetchFonts = () => {
 
 const SplashScreen: React.FC = () => {
   const navigation = useNavigation();
-  const [redirect, setRedirect] = useState(3);
   const [dataLoadded, setDataLoaded] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
-      let countDown = redirect;
-      countDown -= 1;
-      setRedirect(countDown);
-    }, 1000);
-
-    if (redirect < 1) {
       navigation.navigate('Home');
-    }
-  }, [redirect, navigation]);
+    }, 2000);
+  }, []);
 
   if (!dataLoadded) {
     return (
