@@ -1,68 +1,38 @@
-<!-- BADGES -->
-<p align="center">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jvitormf/nlw1-ecoleta?color=green">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/jvitormf/nlw1-ecoleta">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/jvitormf/nlw1-ecoleta">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/jvitormf/nlw1-ecoleta">
-  <img alt="GitHub" src="https://img.shields.io/github/license/jvitormf/nlw1-ecoleta">
-  <a href="https://www.linkedin.com/in/jvitormf/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&colorB=555">
-  </a>
-</p>
-<br/>
-
-<!-- PROJECT LOGO -->
-<p align="center">
-  <a href="https://github.com/jvitormf/nlw1-ecoleta">
-     <img src=".github/logo.svg" alt="Logo">
-  </a>
-
-  [Next Level Week](http://nextlevelweek.com/) it's a seven-day event created by [Rocketseat](https://rocketseat.com.br/), the objective is to take you to the next level of your career. The event has lots of practice coding, challenges, and networking. An online and completely free event that will help you take the next step. :rocket:
-</p>
-
-***
 
 <!-- TABLE OF CONTENTS -->
-# Table of Contents
-* [About the Project](#boom-about-the-project)
-* [Built With](#gear-built-with)
-  * [Tools](#tools)
-  * [Technologies](#Technologies)
-* [Getting Started](#rocket-getting-started)
-  * [Prerequisites](#clipboard-prerequisites)
-  * [Installation](#zap-installation)
-* [Contributing](#bulb-contributing)
-* [Usage](#usage)
-* [License](#memo-license)
-* [Contact](#e-mail-contact)
-* [Acknowledgements](#exclamation-acknowledgements)
+# Índice
+* [Sobre o Projeto](#boom-sobre-o-projeto)
+* [Construído com](#gear-construído-com)
+  * [Ferramentas](#ferramentas)
+  * [Tecnologias](#tecnologias)
+* [Começando](#rocket-começando)
+  * [Prerequisitos](#clipboard-prerequisitos)
+  * [Instalação](#zap-instalação)
+* [Utilização](#utilização)
+* [Contato](#e-mail-contato)
+* [Agradecimentos](#exclamation-agradecimentos)
 <!-- * [Roadmap](#arrows_clockwise-roadmap) -->
 
 <!-- ABOUT THE PROJECT -->
-# :boom: About The Project
+# :boom: Sobre o Projeto
 
 <!-- Project image -->
-<img src=".github/home.png" alt="Ecoleta">
+<p align="center">
+  <img src=".github/app.png" alt="Tubarão da estrada" width="270" height="555" >
+</p>
 
 
-## Description
-Ecoleta it's an app to connect people to companies that collect organic or inorganic waste such as cooking oil, batteries, electronics, etc. The idea is based on the international environment week.
+## Descrição
+Tubarão da estrada é um app desenvolvido pela equipe 450 durante o hackathon CCR 2020.
+A ideia do app é servir como um assistente virtual para os caminhoneiros no intuito de ajudá-los no seu dia a dia utilizando o máximo possível de comandos de voz para que tenha uma experiência ainda melhor na utilização do app para que possa mantar o foco na estrada enquanto está dirigindo.
 
-### The app has the following features:
-* Companies will be able to:
-  * Fill a form to register its location and contact info in order to be available for the users;
-* Users will be able to:
-  * Inform their location in order to locate the companies nearby;
-  * Filter by type of waste;
-  * See the information about the selected company;
 ***
 
-# :gear: Built With
-  ## Tools
+# :gear: Construído com
+  ## Ferramentas
   * [VSCode](https://code.visualstudio.com/)
-  * [Insomnia](https://insomnia.rest/)
 
-  ## Technologies
+  ## Tecnologias
   * [Typescript](https://www.typescriptlang.org/)
   * [React Native](https://reactnative.dev/)
   * [Expo](https://expo.io/)
@@ -71,34 +41,35 @@ Ecoleta it's an app to connect people to companies that collect organic or inorg
   ***
 
 # :fireworks: Layout
-Click [here](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)?node-id=0%3A1) to see the web and mobile layout of this app.
+Clique [aqui](https://www.figma.com/file/IoG9eGXVlGTyWFsg9bbHb8/Hackathon-CCR?node-id=83%3A1) para ver o layout do app no Figma.
 
   [:arrow_up: Back to top](#table-of-Contents)
   ***
 
 <!-- GETTING STARTED -->
-# :rocket: Getting Started
+# :rocket: Começando
 
-To get a local copy up and running follow these simple steps.
+Para ter um cópia local e funcionando do app, siga os passos abaixo.
 
-## :clipboard: Prerequisites
+## :clipboard: Prerequisitos
 
-* Node.js - [Install guide](https://nodejs.org/en/download/package-manager/)
-* Yarn - [Install guide](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+* Node.js - [Guia de instalação](https://nodejs.org/en/download/package-manager/)
+* Expo CLI - [Guia de instalação](https://docs.expo.io/get-started/installation/)
+* Yarn - [Guia de instalação](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 [:arrow_up: Back to top](#table-of-Contents)
 ***
 
-## :zap: Installation
-Run the commands below to install and run the app.
+## :zap: Instalação
+Execute os comandos abaixo para instalar o app.
   ```sh
-    #Clone the project
+    #Clonar o projeto
     git clone
 
     #abrir pasta ccr-app
     cd ccr-app
 
-    #instalar depenencias
+    #instalar dependências
     yarn
 
     #iniciar o projeto
@@ -108,58 +79,31 @@ Run the commands below to install and run the app.
 [:arrow_up: Back to top](#table-of-Contents)
 ***
 
-<!-- CONTRIBUTING -->
-# :bulb: Contributing
-
-Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature`)
-3. Commit your Changes (`git commit -m 'Add some Feature'`)
-4. Push to the Branch (`git push origin Feature`)
-5. Open a Pull Request
-
-[:arrow_up: Back to top](#table-of-Contents)
-***
-
 <!-- USAGE EXAMPLES -->
-# Usage
+# Utilização
 
-Usage demonstration of the web version.
+Para ver a desmonstração do app clique [aqui](https://www.figma.com/proto/IoG9eGXVlGTyWFsg9bbHb8/Hackathon-CCR?node-id=83%3A1&scaling=scale-down).
 
-![](./.github/web.gif)
-<!-- <img src="./.github/web.gif" width="1080" height="555"/> -->
-
-Usage demonstration of the mobile version.
-
-<img src="./.github/mobile.gif" width="270" height="555"/>
-
-<!-- ![](./.github/mobile.gif) -->
-***
-
-<!-- LICENSE -->
-# :memo: License
-
-Distributed under the MIT License. See [LICENSE](LICENSE.md) for more information.
-
-[:arrow_up: Back to top](#table-of-Contents)
 ***
 
 <!-- CONTACT -->
-# :e-mail: Contact
+# :e-mail: Contato
 
+Daniel - <daniel.keterer@gmail.com>
+Eduardo - <Eduardo.Nobuhiro@hotmail.com>
 João Vitor - <j.vitor.mf@gmail.com>
-
-LinkedIn - <https://www.linkedin.com/in/jvitormf/>
+Juliana - <juju.doux@gmail.com>
+Richard - <richard.deus@gmail.com>
 
 [:arrow_up: Back to top](#table-of-Contents)
 ***
 
 <!-- ACKNOWLEDGEMENTS -->
-# :exclamation: Acknowledgements
+# :exclamation: Agradecimentos
 
-* [Next Level Week](http://nextlevelweek.com/)
-* [Rocketseat]()
+* [Hackathon CCR](http://www.grupoccr.com.br/hackathonccr/)
+* [CCR](http://www.grupoccr.com.br/grupo-ccr/sobre-o-grupo-ccr)
+* [Shawee](https://shawee.io/)
 
 [:arrow_up: Back to top](#table-of-Contents)
 ***
