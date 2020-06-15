@@ -95,7 +95,6 @@ Daniel - <daniel.keterer@gmail.com>
 Eduardo - <Eduardo.Nobuhiro@hotmail.com>
 João Vitor - <j.vitor.mf@gmail.com>
 Juliana - <juju.doux@gmail.com>
-Richard - <richard.deus@gmail.com>
 
 [Voltar ao topo](#-índice)
 ***
