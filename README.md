@@ -26,6 +26,8 @@
 Tubarão da estrada é um app desenvolvido pela equipe 450 durante o hackathon CCR 2020.
 A ideia do app é servir como um assistente virtual para os caminhoneiros no intuito de ajudá-los no seu dia a dia utilizando o máximo possível de comandos de voz para que tenha uma experiência ainda melhor na utilização do app para que possa mantar o foco na estrada enquanto está dirigindo.
 
+O app foi criado com [EXPO](https://expo.io/) para desenvolvimento ágil, que não suporta o STT (Speech To Text) atualmente. Paraviabilidade total do app seria necessário a utilização do React Native ou da implementação no EXPO.
+
 ***
 
 # Construído com
